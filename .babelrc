@@ -1,0 +1,15 @@
+{
+    "presets": [
+        "es2017"
+    ],
+    "plugins": [
+        "syntax-object-rest-spread",
+        [
+            "transform-decorators-legacy",
+            {
+                "loose": true
+            }
+        ],
+        "transform-class-properties"
+    ]
+}
